@@ -1,90 +1,106 @@
 {
     "News" : {
         "a" : {
-            "title": "mock title News 1",
+            "title": "News 1",
             "image": "news_1.png",
-            "content": "mock content News 1"
+            "content": "mock content News 1. This is a test content. This is a test content. This is a test content. This is a test content. This is a test content. This is a test content. This is a test content. This is a test content. This is a test content.",
+            "update": "Jan 25, 2018 14:55"
         },
         "b" : {
-            "title": "mock title News 2",
+            "title": "News 2",
             "image": "news_2.png",
-            "content": "mock content News 2"
+            "content": "mock content News 2. This is a test content. This is a test content. This is a test content.",
+            "update": "Jan 25, 2018 14:55"
         },
         "c" : {
-            "title": "mock title News 3",
+            "title": "News 3",
             "image": "news_3.png",
-            "content": "mock content News 3"
+            "content": "mock content News 3",
+            "update": "Jan 25, 2018 14:55"
         },
         "d" : {
-            "title": "mock title News 4",
+            "title": "News 4",
             "image": "news_4.png",
-            "content": "mock content News 4"
+            "content": "mock content News 4",
+            "update": "Jan 25, 2018 14:55"
         }
     },
     "Regions" : {
         "a" : {
-            "title": "mock title Regions 1",
+            "title": "Regions 1",
             "image": "regions_1.png",
-            "content": "mock content Regions 1"
+            "content": "mock content Regions 1",
+            "update": "Jan 25, 2018 14:55"
         },
         "b" : {
-            "title": "mock title Regions 2",
+            "title": "Regions 2",
             "image": "regions_2.png",
-            "content": "mock content Regions 2"
+            "content": "mock content Regions 2",
+            "update": "Jan 25, 2018 14:55"
         },
         "c" : {
-            "title": "mock title Regions 3",
+            "title": "Regions 3",
             "image": "regions_3.png",
-            "content": "mock content Regions 3"
+            "content": "mock content Regions 3",
+            "update": "Jan 25, 2018 14:55"
         },
         "d" : {
-            "title": "mock title Regions 4",
+            "title": "Regions 4",
             "image": "regions_4.png",
-            "content": "mock content Regions 4"
+            "content": "mock content Regions 4",
+            "update": "Jan 25, 2018 14:55"
         }
     },
-    "Video" : {
+    "Videos" : {
         "a" : {
-            "title": "mock title Video 1",
-            "image": "video_1.png",
-            "content": "mock content Video 1"
+            "title": "Videos 1",
+            "image": "videos_1.png",
+            "content": "mock content Videos 1",
+            "update": "Jan 25, 2018 14:55"
         },
         "b" : {
-            "title": "mock title Video 2",
-            "image": "video_2.png",
-            "content": "mock content Video 2"
+            "title": "Videos 2",
+            "image": "videos_2.png",
+            "content": "mock content Videos 2",
+            "update": "Jan 25, 2018 14:55"
         },
         "c" : {
-            "title": "mock title Video 3",
-            "image": "video_3.png",
-            "content": "mock content Video 3"
+            "title": "Videos 3",
+            "image": "videos_3.png",
+            "content": "mock content Videos 3",
+            "update": "Jan 25, 2018 14:55"
         },
         "d" : {
-            "title": "mock title Video 4",
-            "image": "video_4.png",
-            "content": "mock content Video 4"
+            "title": "Videos 4",
+            "image": "videos_4.png",
+            "content": "mock content Videos 4",
+            "update": "Jan 25, 2018 14:55"
         }
     },
     "TV" : {
         "a" : {
-            "title": "mock title TV 1",
+            "title": "TV 1",
             "image": "tv_1.png",
-            "content": "mock content TV 1"
+            "content": "mock content TV 1",
+            "update": "Jan 25, 2018 14:55"
         },
         "b" : {
-            "title": "mock title TV 2",
+            "title": "TV 2",
             "image": "tv_2.png",
-            "content": "mock content TV 2"
+            "content": "mock content TV 2",
+            "update": "Jan 25, 2018 14:55"
         },
         "c" : {
-            "title": "mock title TV 3",
+            "title": "TV 3",
             "image": "tv_3.png",
-            "content": "mock content TV 3"
+            "content": "mock content TV 3",
+            "update": "Jan 25, 2018 14:55"
         },
         "d" : {
-            "title": "mock title TV 4",
+            "title": "TV 4",
             "image": "tv_4.png",
-            "content": "mock content TV 4"
+            "content": "mock content TV 4",
+            "update": "Jan 25, 2018 14:55"
         }
-    },
+    }
 }
