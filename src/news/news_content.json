@@ -1,0 +1,90 @@
+{
+    "News" : {
+        "a" : {
+            "title": "mock title News 1",
+            "image": "news_1.png",
+            "content": "mock content News 1"
+        },
+        "b" : {
+            "title": "mock title News 2",
+            "image": "news_2.png",
+            "content": "mock content News 2"
+        },
+        "c" : {
+            "title": "mock title News 3",
+            "image": "news_3.png",
+            "content": "mock content News 3"
+        },
+        "d" : {
+            "title": "mock title News 4",
+            "image": "news_4.png",
+            "content": "mock content News 4"
+        }
+    },
+    "Regions" : {
+        "a" : {
+            "title": "mock title Regions 1",
+            "image": "regions_1.png",
+            "content": "mock content Regions 1"
+        },
+        "b" : {
+            "title": "mock title Regions 2",
+            "image": "regions_2.png",
+            "content": "mock content Regions 2"
+        },
+        "c" : {
+            "title": "mock title Regions 3",
+            "image": "regions_3.png",
+            "content": "mock content Regions 3"
+        },
+        "d" : {
+            "title": "mock title Regions 4",
+            "image": "regions_4.png",
+            "content": "mock content Regions 4"
+        }
+    },
+    "Video" : {
+        "a" : {
+            "title": "mock title Video 1",
+            "image": "video_1.png",
+            "content": "mock content Video 1"
+        },
+        "b" : {
+            "title": "mock title Video 2",
+            "image": "video_2.png",
+            "content": "mock content Video 2"
+        },
+        "c" : {
+            "title": "mock title Video 3",
+            "image": "video_3.png",
+            "content": "mock content Video 3"
+        },
+        "d" : {
+            "title": "mock title Video 4",
+            "image": "video_4.png",
+            "content": "mock content Video 4"
+        }
+    },
+    "TV" : {
+        "a" : {
+            "title": "mock title TV 1",
+            "image": "tv_1.png",
+            "content": "mock content TV 1"
+        },
+        "b" : {
+            "title": "mock title TV 2",
+            "image": "tv_2.png",
+            "content": "mock content TV 2"
+        },
+        "c" : {
+            "title": "mock title TV 3",
+            "image": "tv_3.png",
+            "content": "mock content TV 3"
+        },
+        "d" : {
+            "title": "mock title TV 4",
+            "image": "tv_4.png",
+            "content": "mock content TV 4"
+        }
+    },
+}
