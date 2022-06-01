@@ -221,14 +221,10 @@ class All extends React.Component{
     })
   }
 
-  handleState(s) {
-    this.setState(s)
-  }
-
   handleSearchAll = (text) => {
     console.log("search text at ALL = ")
     console.log(text)
-    this.handleState({
+    this.setState({
       search: text,
       content: ""
     })
