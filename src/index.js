@@ -161,7 +161,7 @@ class ContentBody extends React.Component{
     let check = false
     if (this.props.dataFromMenu != "") {
       if (this.state.fromMenu !== this.props.dataFromMenu) {
-        let url = 'http://127.0.0.1:3001/main/content/' + this.props.dataFromMenu
+        let url = 'http://127.0.0.1:3001/main/page/content/' + this.props.dataFromMenu
         // console.log('url = ')
         // console.log(url)
         axios.get(url).then(con => {
@@ -177,7 +177,7 @@ class ContentBody extends React.Component{
       }
     } else if(this.props.searchFromMenu != "") {
       if (this.state.search !== this.props.searchFromMenu) {
-        let url = 'http://127.0.0.1:3001/main/search/' + this.props.searchFromMenu
+        let url = 'http://127.0.0.1:3001/main/page/search/' + this.props.searchFromMenu
         // console.log('url = ')
         // console.log(url)
         axios.get(url).then(con => {
