@@ -40,7 +40,9 @@ class Search extends React.Component{
   search = () => {
     this.setState( prevState => ({ checked: !prevState.checked }));
     // send backend search request here ******
-    this.props.parentSearchMenu(this.state.text)
+    if(this.state.text !== "") {
+      this.props.parentSearchMenu(this.state.text)
+    }
   }
   
   render () {
@@ -159,7 +161,7 @@ class ContentBody extends React.Component{
     console.log('this.props.searchFromMenu = ')
     console.log(this.props.searchFromMenu)
     let check = false
-    if (this.props.dataFromMenu != "") {
+    if (this.props.dataFromMenu !== "") {
       if (this.state.fromMenu !== this.props.dataFromMenu) {
         let url = 'http://127.0.0.1:3001/main/page/content/' + this.props.dataFromMenu
         // console.log('url = ')
@@ -175,7 +177,7 @@ class ContentBody extends React.Component{
       } else {
         check = true
       }
-    } else if(this.props.searchFromMenu != "") {
+    } else if(this.props.searchFromMenu !== "") {
       if (this.state.search !== this.props.searchFromMenu) {
         let url = 'http://127.0.0.1:3001/main/page/search/' + this.props.searchFromMenu
         // console.log('url = ')
